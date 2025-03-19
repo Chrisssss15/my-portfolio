@@ -2,34 +2,55 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import {createBrowserRouter, RouterProvider } from "react-router";
+import Layout from "./assets/Components/Layout.jsx";
+import Home from "./assets/pages/Home.jsx";
+import Project from "./assets/pages/Project.jsx";
+import Studie from "./assets/pages/Studie.jsx";
+import Werk from "./assets/pages/Werk.jsx";
+import Contact from "./assets/pages/Contact.jsx";
+
+
+const router = createBrowserRouter([
+    {
+        element: <Layout/>,
+        children: [
+            {
+                path: '/',
+                element: <Home/>,
+            },
+            {
+                path: '/projecten',
+                element: <Project/>,
+            },
+            {
+                path: '/studie',
+                element: <Studie/>,
+            },
+            {
+                path: '/werk',
+                element: <Werk/>,
+            },
+            {
+                path: '/contact',
+                element: <Contact/>,
+            },
+
+
+        ]
+    }
+]);
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return (
+        <div>
+            <div>
+                <RouterProvider router={router}/>
+            </div>
+        </div>
+
+    );
 }
 
 export default App
