@@ -2,6 +2,7 @@ import { Link, Outlet } from 'react-router';
 import { useState } from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaNodeJs, FaPhp, FaDatabase } from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiMongodb, SiLaravel, SiMysql } from 'react-icons/si';
+import Cube from "../Components/Cube.jsx";
 
 
 
@@ -100,6 +101,11 @@ function Home() {
                         ))}
                     </div>
                 </div>
+            </div>
+
+            <div className="App">
+
+                <Cube />
             </div>
 
         </div>
