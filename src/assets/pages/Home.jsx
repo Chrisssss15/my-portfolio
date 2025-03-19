@@ -43,7 +43,7 @@ function Home() {
 
                 {/* Image Section */}
                 <div className="md:w-1/2 flex justify-center md:justify-end">
-                    <img src="https://via.placeholder.com/400" alt="Profile" className="w-72 md:w-96 rounded-lg " />
+                    <img src="/no-photo.jpeg" alt="Profile" className="w-72 md:w-96 rounded-lg " />
                 </div>
             </div>
 
