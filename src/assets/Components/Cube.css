@@ -1,0 +1,77 @@
+.cube-container {
+    position: relative;
+    width: 1200px; /* Verhoog de breedte */
+    height: 600px; /* Verhoog de hoogte */
+    perspective: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: #1e1e1e; !* Achtergrondkleur aanpassen *!*/
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.rotation-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cube-wrapper {
+    width: 1200px;
+    height: 600px;
+    position: relative;
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.face {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    /*background: rgba(0, 123, 255, 0.7);*/
+    background: lightblue;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.front { transform: rotateY(0deg) translateZ(200px); }
+.back { transform: rotateY(180deg) translateZ(200px); }
+.right { transform: rotateY(90deg) translateZ(200px); }
+.left { transform: rotateY(-90deg) translateZ(200px); }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.speed-controls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
