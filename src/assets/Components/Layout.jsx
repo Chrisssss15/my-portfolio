@@ -25,7 +25,7 @@ function Layout() {
                     <nav aria-label="Header Navigation"
                          className="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
                         <ul className="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
-                            <li className=""><a className="text-gray-600 hover:text-blue-600" href="/projecten">Projecten</a></li>
+                            <li className=""><a className="text-gray-600 hover:text-blue-600" href="/projects">Projecten</a></li>
 
                             <li className=""><a className="text-gray-600 hover:text-blue-600" href="/studie">Studie</a></li>
                             <li className=""><a className="text-gray-600 hover:text-blue-600" href="/werk">Werkervaring</a></li>
