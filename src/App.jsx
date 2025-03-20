@@ -5,12 +5,13 @@ import './App.css'
 import {createBrowserRouter, RouterProvider } from "react-router";
 import Layout from "./assets/Components/Layout.jsx";
 import Home from "./assets/pages/Home.jsx";
-import Project from "./assets/pages/Project.jsx";
 import Studie from "./assets/pages/Studie.jsx";
 import Werk from "./assets/pages/Werk.jsx";
 import Contact from "./assets/pages/Contact.jsx";
+import ProjectDetail from "./assets/pages/ProjectDetail.jsx";
+import Projects from "./assets/pages/Project.jsx";
 
-
+// Router aanmaken
 const router = createBrowserRouter([
     {
         element: <Layout/>,
@@ -20,8 +21,12 @@ const router = createBrowserRouter([
                 element: <Home/>,
             },
             {
-                path: '/projecten',
-                element: <Project/>,
+                path: '/projects',
+                element: <Projects/>,
+            },
+            {
+                path: '/projects/:projectId',
+                element: <ProjectDetail />, // ✅ Dynamische route voor projectdetails
             },
             {
                 path: '/studie',
@@ -35,8 +40,6 @@ const router = createBrowserRouter([
                 path: '/contact',
                 element: <Contact/>,
             },
-
-
         ]
     }
 ]);
