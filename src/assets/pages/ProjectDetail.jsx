@@ -12,7 +12,7 @@ function ProjectDetail() {
             id: "Gebarentaal-leren",
             title: "Gebarentaal Leren",
             description: "Een applicatie om gebarentaal te leren.",
-            image: "/gebaren.png",
+            image: "/my-portfolio/gebaren.png",
             github: "https://github.com/Chrisssss15/TLE-2-Frontend",
             details: `Voor een schoolproject heb ik samen met mijn team een webapplicatie ontwikkeld in opdracht van twee docenten van de Hogeschool Rotterdam. De applicatie is bedoeld voor studenten die het keuzevak ‘Gebarentaal bij intake’ volgen, zodat zij zelfstandig kunnen oefenen met gebarentaal – ook buiten de lessen om.
 
@@ -36,16 +36,16 @@ function ProjectDetail() {
                 </div>
             ),
             slideshow: [
-                "/gebarentaal-site-1.png",
-                "/gebarentaal-site-2.png",
-                "/gebarentaal-site-3.png",
-                "/gebarentaal-site-4.png",
-                "/gebarentaal-site-5.png",
-                "/gebarentaal-site-6.png",
-                "/gebarentaal-site-7.png",
-                "/gebarentaal-site-8.png",
-                "/gebarentaal-site-9.png",
-                "/gebarentaal-site-10.png",
+                "/my-portfolio/gebarentaal-site-1.png",
+                "/my-portfolio/gebarentaal-site-2.png",
+                "/my-portfolio/gebarentaal-site-3.png",
+                "/my-portfolio/gebarentaal-site-4.png",
+                "/my-portfolio/gebarentaal-site-5.png",
+                "/my-portfolio/gebarentaal-site-6.png",
+                "/my-portfolio/gebarentaal-site-7.png",
+                "/my-portfolio/gebarentaal-site-8.png",
+                "/my-portfolio/gebarentaal-site-9.png",
+                "/my-portfolio/gebarentaal-site-10.png",
 
 
             ]
@@ -54,7 +54,7 @@ function ProjectDetail() {
             id: "Eindopdracht-6",
             title: "Eindopdracht 6 – Fullstack ReactJS Project",
             description: "Een fullstack project met ReactJS.",
-            image: "/reactJS.png",
+            image: "/my-portfolio/reactJS.png",
             github: {
                 frontend: "https://github.com/Chrisssss15/PRG06-frontend",
                 backend: "https://github.com/Chrisssss15/PRG06-backend"
@@ -99,12 +99,12 @@ function ProjectDetail() {
                 </div>
             ),
             slideshow: [
-                "/programmeren6-site-1.png",
-                "/programmeren6-site-2.png",
-                "/programmeren6-site-3.png",
-                "/programmeren6-site-4.png",
-                "/programmeren6-site-5.png",
-                "/programmeren6-site-6.png",
+                "/my-portfolio/programmeren6-site-1.png",
+                "/my-portfolio/programmeren6-site-2.png",
+                "/my-portfolio/programmeren6-site-3.png",
+                "/my-portfolio/programmeren6-site-4.png",
+                "/my-portfolio/programmeren6-site-5.png",
+                "/my-portfolio/programmeren6-site-6.png",
 
             ]
         },
@@ -112,7 +112,7 @@ function ProjectDetail() {
             id: "Open-hiring",
             title: "Open Hiring – Webapplicatie",
             description: "Een vacatureplatform zonder sollicitatieprocedure, in opdracht van iO Digital.",
-            image: "/open-hiring.png",
+            image: "/my-portfolio/open-hiring.png",
             github: "https://github.com/Mathijs-04/TLE1-Agency",
             details: `Voor een schoolproject heb ik samen met mijn team een webapplicatie ontwikkeld in opdracht van iO Digital. Het platform is gebouwd rondom het principe van Open Hiring: werkgevers kunnen vacatures plaatsen waarop werkzoekenden zich kunnen aanmelden zonder sollicitatieprocedure, dus zonder cv of motivatiebrief.
                 In dit project lag de focus op de werkgeversfunctionaliteiten. Werkgevers kunnen:
@@ -132,12 +132,12 @@ function ProjectDetail() {
                 </div>
             ),
             slideshow: [
-                "/open-hiring-site-1.png",
-                "/open-hiring-site-2.png",
-                "/open-hiring-site-3.png",
-                "/open-hiring-site-4.png",
-                "/open-hiring-site-5.png",
-                "/open-hiring-site-6.png",
+                "/my-portfolio/open-hiring-site-1.png",
+                "/my-portfolio/open-hiring-site-2.png",
+                "/my-portfolio/open-hiring-site-3.png",
+                "/my-portfolio/open-hiring-site-4.png",
+                "/my-portfolio/open-hiring-site-5.png",
+                "/my-portfolio/open-hiring-site-6.png",
             ]
         },
         {

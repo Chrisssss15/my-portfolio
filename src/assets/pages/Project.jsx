@@ -8,56 +8,56 @@ function Projects() {
             id: "Gebarentaal-leren",
             title: "Webapplicatie – Gebarentaal leren",
             description: "Voor een schoolproject ontwikkelde ik een webapplicatie voor studenten aan de Hogeschool Rotterdam...",
-            image: "/gebaren.png",
+            image: "/my-portfolio/gebaren.png",
             icon: <FaReact className="text-[#61DAFB] text-4xl p-2" />
         },
         {
             id: "Eindopdracht-6",
             title: "Eindopdracht 6 – Fullstack ReactJS Project",
             description: "Voor mijn zesde eindopdracht heb ik gewerkt aan een fullstack project met ReactJS...",
-            image: "/reactJS.png",
+            image: "/my-portfolio/reactJS.png",
             icon: <FaReact className="text-[#61DAFB] text-4xl p-2" />
         },
         {
             id: "Open-hiring",
             title: "Webapplicatie – Open Hiring",
             description: "Voor een schoolproject ontwikkelden we een webapplicatie voor Open Hiring...",
-            image: "/open-hiring.png",
+            image: "/my-portfolio/open-hiring.png",
             icon: <FaLaravel className="text-[#FF2D20] text-4xl p-2" />
         },
         {
             id: "Eindopdracht-5",
             title: "Eindopdracht 5 – Laravel Project",
             description: "Voor mijn vijfde eindopdracht bouwde ik een Laravel-applicatie met volledige CRUD-functionaliteit en voegde ik extra features toe voor een verbeterde gebruikerservaring.",
-            image: "/laravel.png",
+            image: "/my-portfolio/laravel.png",
             icon: <FaLaravel className="text-[#FF2D20] text-4xl p-2" />
         },
         {
             id: "Punch-park",
             title: "Excalibur.js Project – Punch Park",
             description: "Voor mijn vierde eindopdracht ontwikkelde ik een 2D-game met Excalibur.js, gericht op gameplay-mechanics en interactie.",
-            image: "/punchpark.png",
+            image: "/my-portfolio/punchpark.png",
             icon: <FaGamepad className="text-gray-400 text-4xl p-2" />
         },
         {
             id: "Flying-monkey-game",
             title: "Eindopdracht 4 – Flying Monkey Game",
             description: "Voor het project Punch Park Game ontwikkelden we een 2D-game in Excalibur.js, geïnspireerd op het Hefpark in Rotterdam.",
-            image: "/flyingmonkey.png",
+            image: "/my-portfolio/flyingmonkey.png",
             icon: <FaGamepad className="text-gray-400 text-4xl p-2" />
         },
         {
             id: "Eindopdracht-3",
             title: "Eindopdracht 3 – JavaScript Project",
             description: "In deze opdracht werkten we met JavaScript, haalden data op via een API en gebruikten LocalStorage om gegevens lokaal op te slaan.",
-            image: "/programmeren3.png",
+            image: "/my-portfolio/programmeren3.png",
             icon: <FaJsSquare className="text-[#F7DF1E] text-4xl p-2" />
         },
         {
             id: "Denise-kookt",
             title: "Denise Kookt – PHP Project",
             description: "Voor een cateringbedrijf ontwikkelden we een app waarmee klanten eenvoudig catering kunnen bestellen en workshops boeken.",
-            image: "/logo_dk.png",
+            image: "/my-portfolio/logo_dk.png",
             icon: <FaPhp className="text-[#8892BF] text-4xl p-2" />
         }
 
@@ -66,7 +66,7 @@ function Projects() {
     return (
         <div className="min-h-screen bg-[#D7D7D7] py-10 px-5">
             <div className="max-w-7xl mx-auto">
-                <h1 className="text-4xl font-bold text-center mb-10 text-black">Projects</h1>
+                <h1 className="text-4xl font-bold text-center mb-10 text-blackxf">Projects</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {projects.map((project) => (
                         <div key={project.id} className="bg-[#FBF5F3] rounded-2xl shadow-lg overflow-hidden p-6 flex flex-col items-center">
