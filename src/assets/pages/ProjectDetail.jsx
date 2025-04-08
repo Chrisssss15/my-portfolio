@@ -139,8 +139,27 @@ function ProjectDetail() {
                 "/open-hiring-site-5.png",
                 "/open-hiring-site-6.png",
             ]
+        },
+        {
+            // id: "Open-hiring",
+            title: "",
+            description: "",
+            image: "",
+            github: "",
+            details: ``,
+            // icon: (
+            //     <div className="mt-4 flex gap-6 items-center justify-center md:justify-start">
+            //         <FaLaravel className="text-red-600 text-3xl" title="Laravel" />
+            //         <SiTailwindcss className="text-sky-400 text-3xl" title="Tailwind CSS" />
+            //         <SiMongodb className="text-green-600 text-3xl" title="MongoDB" />
+            //     </div>
+            // ),
+            slideshow: [
 
-        }
+            ]
+        },
+
+
     ];
 
     const project = projects.find((p) => p.id === projectId);
@@ -149,8 +168,14 @@ function ProjectDetail() {
 
     if (!project) {
         return (
-            <div className="text-center text-red-500 text-2xl mt-10">
-                Project niet gevonden
+            <div className="text-center text-red-500 text-2xl mt-10 flex flex-col">
+                Binnenkort meer info over dit project!
+                <Link
+                    to="/projects"
+                    className="inline-block mt-8 bg-[#ECA400] text-white px-4 py-2 rounded-full hover:bg-[#000807] hover:text-white transition font-normal w-1/3 mx-auto"
+                >
+                    Terug naar projecten
+                </Link>
             </div>
         );
     }
