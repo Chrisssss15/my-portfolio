@@ -87,7 +87,7 @@ const Studie = () => {
     return (
         <div className="flex justify-center items-center min-h-screen bg-[#D7D7D7] p-6">
             <div className="max-w-3xl w-full bg-[#FBF5F3] text-[#000807] p-10 shadow-2xl rounded-lg relative">
-                <div className="absolute top-0 left-1/3 w-1 bg-[#000807] h-full"></div>
+                <div className="absolute top-0 left-1/3 w-1 bg-black h-full"></div>
 
                 {[
                     {
@@ -123,7 +123,7 @@ const Studie = () => {
                             <h3 className="text-sm md:text-lg font-semibold">{studie.periode}</h3>
                         </div>
                         <div className="relative w-8 flex justify-center">
-                            <div className="absolute top-2 w-4 h-4 bg-[#ECA400] border-4 border-[#FBF5F3] rounded-full shadow-md"></div>
+                            <div className="absolute top-2 w-4 h-4 bg-[#39A56F] border-4 border-[#FBF5F3] rounded-full shadow-md"></div>
                         </div>
                         <div className="w-3/4 pl-6">
                             <p className="text-md md:text-lg font-semibold">{studie.school}</p>
