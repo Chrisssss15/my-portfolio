@@ -37,40 +37,84 @@ function Contact() {
                     </p>
 
                     <div className="mt-8">
-                        <h2 className="text-2xl font-semibold mb-4">Skills</h2>
-                        <ul className="flex flex-wrap justify-center gap-3">
-                            {['Samenwerkingsgericht', 'Creatief', 'Leergierig', 'Leiderschap', 'Sociaal'].map((skill, index) => (
-                                <motion.li
-                                    key={index}
-                                    whileHover={{ scale: 1.1 }}
-                                    className="bg-[#39A56F] text-white px-4 py-2 rounded-full shadow-md"
-                                >
-                                    {skill}
-                                </motion.li>
-                            ))}
-                        </ul>
+                        <div className="grid md:grid-cols-2 gap-12">
+                            {/* Talen */}
+                            <div>
+                                <h2 className="text-2xl font-semibold mb-4 text-center md:text-left">Talen</h2>
+                                <ul className="flex flex-col gap-3 items-center md:items-start">
+                                    <motion.li
+                                        whileHover={{ scale: 1.02 }}
+                                        className="bg-[#4281A4] text-white px-5 py-3 rounded-xl shadow-sm text-base font-medium transition w-full max-w-sm"
+                                    >
+                                        🇳🇱 <strong>Nederlands</strong> – Moedertaal
+                                    </motion.li>
+                                    <motion.li
+                                        whileHover={{ scale: 1.02 }}
+                                        className="bg-[#4281A4] text-white px-5 py-3 rounded-xl shadow-sm text-base font-medium transition w-full max-w-sm"
+                                    >
+                                        🇨🇳 <strong>Chinees</strong> – Moedertaal (spreken en luisteren)
+                                    </motion.li>
+                                    <motion.li
+                                        whileHover={{ scale: 1.02 }}
+                                        className="bg-[#4281A4] text-white px-5 py-3 rounded-xl shadow-sm text-base font-medium transition w-full max-w-sm"
+                                    >
+                                        🇬🇧 <strong>Engels</strong> – Vloeiend in spreken, lezen en schrijven
+                                    </motion.li>
+                                </ul>
+
+                            </div>
+
+                            {/* Skills */}
+                            <div>
+                                <h2 className="text-2xl font-semibold mb-4 text-center md:text-left">Skills</h2>
+                                <ul className="flex flex-wrap gap-3 justify-center md:justify-start">
+                                    {['Samenwerkingsgericht', 'Creatief', 'Leergierig', 'Leiderschap', 'Sociaal'].map((skill, index) => (
+                                        <motion.li
+                                            key={index}
+                                            whileHover={{ scale: 1.05 }}
+                                            className="bg-[#39A56F] text-white px-5 py-2.5 rounded-full shadow-sm text-base font-medium transition"
+                                        >
+                                            {skill}
+                                        </motion.li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="mt-28 flex justify-start gap-10">
-                        <a
-                            href="https://github.com/jouwgebruikersnaam"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 bg-[#000807] text-white px-4 py-2 rounded-xl shadow-md hover:bg-[#1a1a1a] transition"
-                        >
-                            <FaGithub size={20} />
-                            Bekijk mijn projecten op GitHub
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/jouwprofiel"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 text-[#4281A4] hover:underline text-lg"
-                        >
-                            <FaLinkedin size={24} />
-                            LinkedIn
-                        </a>
+
+
+                    <div className="mt-28 text-left">
+                        <p className="text-lg mb-6">
+                            Alle projecten waar ik aan heb gewerkt zijn te vinden op mijn <strong>GitHub-pagina</strong>.
+                            Hieronder kun je direct naar mijn GitHub om een indruk te krijgen van mijn werk.
+                        </p>
+                        <p className="text-lg mb-6">
+                            Wil je contact opnemen? Dat kan via het formulier onderaan deze pagina, of direct via mijn <strong>LinkedIn</strong>.
+                        </p>
+
+                        <div className="mt-6 flex flex-wrap gap-6">
+                            <a
+                                href="https://github.com/jouwgebruikersnaam"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 bg-[#000807] text-white px-4 py-2 rounded-xl shadow-md hover:bg-[#1a1a1a] transition"
+                            >
+                                <FaGithub size={20} />
+                                Naar mijn GitHub
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/jouwprofiel"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 bg-[#4281A4] text-white px-4 py-2 rounded-xl shadow-md hover:bg-[#] transition"
+                            >
+                                <FaLinkedin size={20} />
+                                Naar mijn LinkedIn
+                            </a>
+                        </div>
                     </div>
+
                 </motion.div>
 
                 <div className="mt-20 text-left">
