@@ -172,7 +172,7 @@ function ProjectDetail() {
                 Binnenkort meer info over dit project!
                 <Link
                     to="/projects"
-                    className="inline-block mt-8 bg-[#ECA400] text-white px-4 py-2 rounded-full hover:bg-[#000807] hover:text-white transition font-normal w-1/3 mx-auto"
+ED                    className="inline-block mt-8 bg-[#39A56F] text-white px-4 py-2 rounded-full hover:bg-[#000807] hover:text-white transition font-normal w-1/3 mx-auto"
                 >
                     Terug naar projecten
                 </Link>
@@ -192,7 +192,7 @@ function ProjectDetail() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="absolute top-4 right-4 text-[#000807] hover:text-[#ECA400] transition flex items-center gap-2"
+                        className="absolute top-4 right-4 text-[#000807] hover:text-[#39A56F] transition flex items-center gap-2"
                     >
                         <FaGithub className="text-xl" />
                         <span className="text-sm font-medium hidden sm:inline">GitHub</span>
@@ -226,7 +226,7 @@ function ProjectDetail() {
 
                         <Link
                             to="/projects"
-                            className="inline-block mt-8 bg-[#ECA400] text-white px-6 py-3 rounded-full hover:bg-[#000807] hover:text-white transition font-medium"
+                            className="inline-block mt-8 bg-[#39A56F] text-white px-6 py-3 rounded-full hover:bg-[#000807] hover:text-white transition font-medium"
                         >
                             Terug naar projecten
                         </Link>
