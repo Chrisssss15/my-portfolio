@@ -61,18 +61,18 @@ function Home() {
                             </div>
                         </div>
                         <p className="text-sm md:text-base leading-normal">
-                          <span className="block mb-4">
-                            <strong>Hey, ik ben Chris</strong> – een enthousiaste front-end developer met een passie voor design en technologie.
-                          </span>
                             <span className="block mb-4">
-                            Ik combineer creativiteit met techniek om moderne, gebruiksvriendelijke websites en webapplicaties te bouwen.
-                          </span>
+                                <strong>Hey, ik ben Chris</strong> – een enthousiaste front-end developer met een passie voor design en technologie.
+                            </span>
                             <span className="block mb-4">
-                            Tijdens mijn opleiding <em>Creative Media and Game Technology</em> heb ik brede kennis opgedaan – niet alleen in front-end development, maar ook in back-end systemen en zelfs AI-toepassingen.
-                          </span>
+                                Ik combineer creativiteit met techniek om moderne, gebruiksvriendelijke websites en webapplicaties te bouwen.
+                            </span>
+                            <span className="block mb-4">
+                                Tijdens mijn opleiding <em>Creative Media and Game Technology</em> heb ik brede kennis opgedaan – niet alleen in front-end development, maar ook in back-end systemen en zelfs AI-toepassingen.
+                            </span>
                             <span className="block">
-                            Momenteel ben ik op zoek naar een <strong> stage</strong> waar ik mijn skills verder kan ontwikkelen, kan samenwerken met andere developers, en écht impact kan maken.
-                          </span>
+                                Momenteel ben ik op zoek naar een <strong>stage</strong> in de richting van <strong>front-end/webdevelopment</strong>. Ook <strong>UI</strong> of <strong>UX</strong> spreekt me erg aan. Ik wil mijn skills verder ontwikkelen, samenwerken met andere developers en écht impact maken.
+                            </span>
                         </p>
                         <a
                             href="./Contact"
