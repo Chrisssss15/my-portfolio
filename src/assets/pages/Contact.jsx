@@ -43,7 +43,7 @@ function Contact() {
                                 <motion.li
                                     key={index}
                                     whileHover={{ scale: 1.1 }}
-                                    className="bg-[#ECA400] text-white px-4 py-2 rounded-full shadow-md"
+                                    className="bg-[#39A56F] text-white px-4 py-2 rounded-full shadow-md"
                                 >
                                     {skill}
                                 </motion.li>
@@ -79,21 +79,21 @@ function Contact() {
                         <input
                             type="text"
                             placeholder="Naam"
-                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#ECA400]"
+                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"
                         />
                         <input
                             type="email"
                             placeholder="E-mailadres"
-                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#ECA400]"
+                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"
                         />
                         <textarea
                             rows="5"
                             placeholder="Je bericht..."
-                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#ECA400]"
+                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"
                         />
                         <button
                             type="submit"
-                            className="bg-[#ECA400] text-white font-semibold px-6 py-2 rounded-lg hover:bg-[#d49500] transition"
+                            className="bg-[#39A56F] text-white font-semibold px-6 py-2 rounded-lg hover:bg-[#39A56F] transition"
                         >
                             Verstuur
                         </button>
