@@ -12,37 +12,43 @@ import ProjectDetail from "./assets/pages/ProjectDetail.jsx";
 import Projects from "./assets/pages/Project.jsx";
 
 // Router aanmaken
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+    [
+        {
+            element: <Layout />,
+            children: [
+                {
+                    path: '/',
+                    element: <Home />,
+                },
+                {
+                    path: '/projects',
+                    element: <Projects />,
+                },
+                {
+                    path: '/projects/:projectId',
+                    element: <ProjectDetail />,
+                },
+                {
+                    path: '/studie',
+                    element: <Studie />,
+                },
+                {
+                    path: '/werk',
+                    element: <Werk />,
+                },
+                {
+                    path: '/contact',
+                    element: <Contact />,
+                },
+            ],
+        },
+    ],
     {
-        element: <Layout/>,
-        children: [
-            {
-                path: '/',
-                element: <Home/>,
-            },
-            {
-                path: '/projects',
-                element: <Projects/>,
-            },
-            {
-                path: '/projects/:projectId',
-                element: <ProjectDetail />, // ✅ Dynamische route voor projectdetails
-            },
-            {
-                path: '/studie',
-                element: <Studie/>,
-            },
-            {
-                path: '/werk',
-                element: <Werk/>,
-            },
-            {
-                path: '/contact',
-                element: <Contact/>,
-            },
-        ]
+        basename: "/my-portfolio", // 👈 Dit is nu correct
     }
-]);
+);
+
 
 function App() {
 
