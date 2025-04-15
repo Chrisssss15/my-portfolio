@@ -346,19 +346,19 @@ function Home() {
                         {
                             title: "Gebarentaal oefenen",
                             img: "/my-portfolio/gebaren.png",
-                            desc: "Een interactieve webapplicatie waarmee studenten zelfstandig gebarentaal kunnen oefenen en hun gemaakte gebaren direct kunnen controleren – ontwikkeld voor het keuzevak ‘Gebarentaal bij intake’ aan de Hogeschool Rotterdam.\"",
+                            desc: "Een interactieve webapplicatie waarmee studenten zelfstandig gebarentaal kunnen oefenen en hun gemaakte gebaren direct kunnen controleren – ontwikkeld voor het keuzevak ‘Gebarentaal bij intake’ aan de Hogeschool Rotterdam.",
                             to: "/projects/Gebarentaal-leren"
                         },
                         {
                             title: "School eindopdracht",
                             img: "/my-portfolio/laravel.png",
-                            desc: "Een fullstack webapplicatie met volledige CRUD-functionaliteit, inclusief CORS-ondersteuning, paginatie, filtermogelijkheden en PATCH/POST-verzoeken – gebouwd met Laravel en gestyled met Tailwind CSS.",
+                            desc: "Een fullstack webapplicatie met complete CRUD-functionaliteit, CORS, paginatie, filters en PATCH/POST-verzoeken – gebouwd met Laravel, gestyled met Tailwind CSS, en voorzien van een responsieve interface, RESTful API en gebruiksvriendelijke navigatie.",
                             to: "/projects/Eindopdracht-6"
                         },
                         {
                             title: "Open Hiring",
                             img: "/my-portfolio/open-hiring.png",
-                            desc: "Een webapplicatie waarmee organisaties vacatures kunnen plaatsen en kandidaten volledig anoniem kunnen solliciteren, gerealiseerd in samenwerking met iO Digital binnen het kader van het Open Hiring-initiatief.",
+                            desc: "Een webapplicatie waarmee organisaties vacatures kunnen plaatsen en kandidaten volledig anoniem kunnen solliciteren – ontwikkeld met Laravel en Tailwind CSS, in samenwerking met iO Digital, als onderdeel van het Open Hiring-initiatief.",
                             to: "/projects/Open-hiring"
                         },
                     ].map((project) => (
