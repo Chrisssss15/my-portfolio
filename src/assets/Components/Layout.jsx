@@ -79,8 +79,6 @@
 // export default Layout;
 //
 
-
-
 import { useState } from 'react';
 import { NavLink, Outlet } from 'react-router';
 
@@ -121,7 +119,7 @@ function Layout() {
                             <li><NavLink to="/projects" className={navLinkClass}>Projecten</NavLink></li>
                             <li><NavLink to="/studie" className={navLinkClass}>Studie</NavLink></li>
                             <li><NavLink to="/werk" className={navLinkClass}>Werkervaring</NavLink></li>
-                            <li><NavLink to="/contact" className={navLinkClass}>Contact</NavLink></li>
+                            <li><NavLink to="/AboutMe" className={navLinkClass}>About me</NavLink></li>
                         </ul>
                     </nav>
                 </div>
@@ -134,7 +132,7 @@ function Layout() {
                             <li><NavLink to="/projects" className={navLinkClass} onClick={closeMobileMenu}>Projecten</NavLink></li>
                             <li><NavLink to="/studie" className={navLinkClass} onClick={closeMobileMenu}>Studie</NavLink></li>
                             <li><NavLink to="/werk" className={navLinkClass} onClick={closeMobileMenu}>Werkervaring</NavLink></li>
-                            <li><NavLink to="/contact" className={navLinkClass} onClick={closeMobileMenu}>Contact</NavLink></li>
+                            <li><NavLink to="/AboutMe" className={navLinkClass} onClick={closeMobileMenu}>About me</NavLink></li>
                         </ul>
                     </nav>
                 )}

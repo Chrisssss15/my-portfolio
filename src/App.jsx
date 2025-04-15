@@ -7,7 +7,7 @@ import Layout from "./assets/Components/Layout.jsx";
 import Home from "./assets/pages/Home.jsx";
 import Studie from "./assets/pages/Studie.jsx";
 import Werk from "./assets/pages/Werk.jsx";
-import Contact from "./assets/pages/Contact.jsx";
+import AboutMe from "./assets/pages/AboutMe.jsx";
 import ProjectDetail from "./assets/pages/ProjectDetail.jsx";
 import Projects from "./assets/pages/Project.jsx";
 
@@ -38,8 +38,8 @@ const router = createBrowserRouter(
                     element: <Werk />,
                 },
                 {
-                    path: '/contact',
-                    element: <Contact />,
+                    path: '/aboutMe',
+                    element: <AboutMe />,
                 },
             ],
         },
