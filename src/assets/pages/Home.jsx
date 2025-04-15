@@ -273,8 +273,11 @@ function Home() {
             <section id="intro" className="p-8 md:p-16 w-full flex flex-col items-center justify-center min-h-screen" data-aos="fade-up">
                 <div className="w-full max-w-4xl text-center md:text-left text-[#FBF5F3]">
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                        <span className="text-[#39A56F]">I'M</span><br />
-                        Chris Tang<span className="text-[#39A56F]">.</span>
+                        {/*<span className="text-[#39A56F]">I'M</span><br />*/}
+                        <span>I'M</span><br />
+                        Chris Tang
+                        {/*<span className="text-[#39A56F]">.</span>*/}
+                        <span>.</span>
                     </h1>
                     <p className="mt-4 text-base md:text-lg uppercase text-[#39A56F] overflow-hidden whitespace-nowrap border-r-2 border-[#39A56F] w-fit animate-typing animate-blink">
                         Frontend developer & Web Developer
