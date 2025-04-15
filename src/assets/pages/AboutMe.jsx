@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTrello } from 'react-icons/fa';
 import { SiFigma } from 'react-icons/si';
 
-function Contact() {
+function AboutMe() {
     return (
         <div className="p-8 max-w-5xl text-black mx-auto text-center">
             <header>
@@ -90,12 +90,12 @@ function Contact() {
                             Hieronder kun je direct naar mijn GitHub om een indruk te krijgen van mijn werk.
                         </p>
                         <p className="text-lg mb-6">
-                            Wil je contact opnemen? Dat kan via het formulier onderaan deze pagina, of direct via mijn <strong>LinkedIn</strong>.
+                            Wil je contact met me opnemen? Stuur me dan gerust een bericht via <strong>LinkedIn</strong>.
                         </p>
 
                         <div className="mt-6 flex flex-wrap gap-6">
                             <a
-                                href="https://github.com/jouwgebruikersnaam"
+                                href="https://github.com/Chrisssss15"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 bg-[#000807] text-white px-4 py-2 rounded-xl shadow-md hover:bg-[#1a1a1a] transition"
@@ -104,7 +104,7 @@ function Contact() {
                                 Naar mijn GitHub
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/jouwprofiel"
+                                href="https://www.linkedin.com/in/chris-tang-developer/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 bg-[#4281A4] text-white px-4 py-2 rounded-xl shadow-md hover:bg-[#] transition"
@@ -117,32 +117,32 @@ function Contact() {
 
                 </motion.div>
 
-                <div className="mt-20 text-left">
-                    <h2 className="text-2xl font-semibold mb-4 text-center">Neem contact met me op</h2>
-                    <form className="flex flex-col gap-4 max-w-xl mx-auto">
-                        <input
-                            type="text"
-                            placeholder="Naam"
-                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"
-                        />
-                        <input
-                            type="email"
-                            placeholder="E-mailadres"
-                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"
-                        />
-                        <textarea
-                            rows="5"
-                            placeholder="Je bericht..."
-                            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"
-                        />
-                        <button
-                            type="submit"
-                            className="bg-[#39A56F] text-white font-semibold px-6 py-2 rounded-lg hover:bg-[#39A56F] transition"
-                        >
-                            Verstuur
-                        </button>
-                    </form>
-                </div>
+                {/*<div className="mt-20 text-left">*/}
+                {/*    <h2 className="text-2xl font-semibold mb-4 text-center">Neem contact met me op</h2>*/}
+                {/*    <form className="flex flex-col gap-4 max-w-xl mx-auto">*/}
+                {/*        <input*/}
+                {/*            type="text"*/}
+                {/*            placeholder="Naam"*/}
+                {/*            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"*/}
+                {/*        />*/}
+                {/*        <input*/}
+                {/*            type="email"*/}
+                {/*            placeholder="E-mailadres"*/}
+                {/*            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"*/}
+                {/*        />*/}
+                {/*        <textarea*/}
+                {/*            rows="5"*/}
+                {/*            placeholder="Je bericht..."*/}
+                {/*            className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#39A56F]"*/}
+                {/*        />*/}
+                {/*        <button*/}
+                {/*            type="submit"*/}
+                {/*            className="bg-[#39A56F] text-white font-semibold px-6 py-2 rounded-lg hover:bg-[#39A56F] transition"*/}
+                {/*        >*/}
+                {/*            Verstuur*/}
+                {/*        </button>*/}
+                {/*    </form>*/}
+                {/*</div>*/}
 
             </main>
         </div>
@@ -152,4 +152,4 @@ function Contact() {
 
 }
 
-export default Contact;
+export default AboutMe;

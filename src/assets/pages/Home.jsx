@@ -297,7 +297,7 @@ function Home() {
                         <span className="block">Tijdens mijn opleiding <em>Creative Media and Game Technology</em> heb ik brede kennis opgedaan – niet alleen in front-end development, maar ook in back-end systemen en zelfs AI-toepassingen.</span>
                         <span className="block">Momenteel ben ik op zoek naar een <strong>stage</strong> in de richting van <strong>front-end/webdevelopment</strong>. Ook <strong>UI</strong> of <strong>UX</strong> spreekt me erg aan.</span>
                     </p>
-                    <a href="./Contact" className="mt-6 inline-block border border-[#39A56F] text-[#000807] font-medium px-5 py-2.5 rounded-full hover:bg-[#39A56F] hover:text-white transition">
+                    <a href="./AboutMe" className="mt-6 inline-block border border-[#39A56F] text-[#000807] font-medium px-5 py-2.5 rounded-full hover:bg-[#39A56F] hover:text-white transition">
                         Meer info
                     </a>
                 </div>
