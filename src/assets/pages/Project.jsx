@@ -13,7 +13,7 @@ function Projects() {
         },
         {
             id: "Eindopdracht-6",
-            title: "Eindopdracht 6 – Fullstack ReactJS Project",
+            title: "Eindopdracht 6 – Fullstack ReactJS",
             description: "Voor mijn zesde eindopdracht heb ik gewerkt aan een fullstack project met ReactJS...",
             image: "/my-portfolio/reactJS.png",
             icon: <FaReact className="text-[#61DAFB] text-4xl p-2" />
