@@ -287,7 +287,7 @@ function Home() {
 
             {/* About */}
             {/*<section id="about" className="px-4  py-12 md:p-16 flex items-center justify-center min-h-screen" data-aos="fade-up">*/}
-            <section id="about" className="px-4  py-12 md:p-16 flex items-center justify-center min-h-screen">
+            <section id="about" className="px-4 py-12 md:p-16 flex items-center justify-center min-h-screen">
                 <div className="bg-[#FBF5F3] text-[#000807] p-6 md:p-12 rounded-xl shadow-2xl w-full max-w-4xl text-center">
                     <div className="flex justify-center mb-4">
                         <div className="w-14 h-14 flex items-center justify-center border-2 border-[#39A56F] rounded-full">
@@ -299,12 +299,14 @@ function Home() {
                         <span className="block">Ik combineer creativiteit met techniek om moderne, gebruiksvriendelijke websites en webapplicaties te bouwen.</span>
                         <span className="block">Tijdens mijn opleiding <em>Creative Media and Game Technology</em> heb ik brede kennis opgedaan – niet alleen in front-end development, maar ook in back-end systemen en zelfs AI-toepassingen.</span>
                         <span className="block">Momenteel ben ik op zoek naar een <strong>stage</strong> in de richting van <strong>front-end/webdevelopment</strong>. Ook <strong>UI</strong> of <strong>UX</strong> spreekt me erg aan.</span>
+                        <span className="block mt-4">Als je geïnteresseerd bent, neem dan gerust <a href="https://www.linkedin.com/in/chris-tang-developer/" target="_blank" rel="noopener noreferrer" className="text-[#39A56F] underline hover:text-[#2c8257]">contact met me op via LinkedIn</a>.</span>
                     </p>
                     <a href="./AboutMe" className="mt-6 inline-block border border-[#39A56F] text-[#000807] font-medium px-5 py-2.5 rounded-full hover:bg-[#39A56F] hover:text-white transition">
                         Meer info
                     </a>
                 </div>
             </section>
+
 
             {/* Skills */}
             {/*<section id="skills" className="px-4 py-12 md:p-16 min-h-screen w-full flex items-center justify-center" data-aos="fade-right">*/}

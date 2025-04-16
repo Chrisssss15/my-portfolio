@@ -68,7 +68,7 @@ function AboutMe() {
                             <div>
                                 <h2 className="text-2xl font-semibold mb-4 text-center md:text-left">Skills</h2>
                                 <ul className="flex flex-wrap gap-3 justify-center md:justify-start">
-                                    {['Samenwerkingsgericht', 'Creatief', 'Leergierig', 'Leiderschap', 'Sociaal'].map((skill, index) => (
+                                    {['Samenwerkingsgericht', 'Creatief', 'Leergierig', 'Leiderschap', 'Sociaal', 'zelfstandig'].map((skill, index) => (
                                         <motion.li
                                             key={index}
                                             whileHover={{ scale: 1.05 }}
